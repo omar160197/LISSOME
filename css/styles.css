@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.features {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  /* position: relative; */
+  background-image: url(../img/img-hero.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.card-div {
+  opacity: 0;
+}
+.card:hover div {
+  opacity: 1;
+}
+
+.activity i:hover {
+  color: aliceblue;
+  opacity: 1;
+}
+
+.last {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+}
+
+.features i {
+  color: palevioletred;
+  margin-right: 10px;
+}
+.features h3 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.features p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.last1 p {
+  opacity: 0;
+}
+.last1:hover p {
+  opacity: 1;
+}
+.last1 img {
+  opacity: 0.7;
+}
+.last1:hover img {
+  opacity: 1;
+}
+
+.last2 p {
+  opacity: 0;
+}
+.last2:hover p {
+  opacity: 1;
+}
+.last2 img {
+  opacity: 0.7;
+}
+.last2:hover img {
+  opacity: 1;
+}
+
+.last3 p {
+  opacity: 0;
+}
+.last3:hover p {
+  opacity: 1;
+}
+.last3 img {
+  opacity: 0.7;
+}
+.last3:hover img {
+  opacity: 1;
+}
+
+.last4 p{
+    opacity: 0; 
+ } 
+.last4:hover p{
+     opacity: 1;
+ }
+.last4 img{
+     opacity: 0.7; 
+  } 
+.last4:hover img{
+      opacity: 1;
+  }
+  
